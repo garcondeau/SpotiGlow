@@ -4,10 +4,11 @@ import Temperature from "./components/Temperature/Temperature";
 import WeatherImage from "./components/WeatherImage/WeatherImage";
 
 function App() {
+    const temperature = 25;
     return (
         <div className="App">
             <CityName/>
-            <Temperature temp="+30"/>
+            <Temperature temp={temperature}/>
             <WeatherImage/>
         </div>
     );
