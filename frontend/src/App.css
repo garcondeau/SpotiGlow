@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -26,6 +26,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Penis{
+  width: 100px;
+  height: auto;
+  margin-left: 10%;
+
 }
 
 @keyframes App-logo-spin {
