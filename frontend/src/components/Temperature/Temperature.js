@@ -1,4 +1,4 @@
-function Temperature({temp}){
+const Temperature = ({temp}) => {
     return(
         <p>
             Temperature: {temp}

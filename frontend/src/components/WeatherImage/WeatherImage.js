@@ -1,6 +1,6 @@
 import Penis from '../../Images/Penis.png'
 
-function WeatherImage(){
+const WeatherImage = () => {
     return(
         <div>
             <img alt="Суки картинку не подгрузили" className="Penis" src={Penis}></img>
